@@ -16,7 +16,7 @@ Overview: The 'sccp_id' parameter in the Secure Copy Content Protection and Cont
 Explanation: Lack of input sanitization enables both authenticated and unauthenticated users to alter SQL queries.
 Mitigation: Update the plugin to the latest version that includes input sanitization using intval() and esc_sql().
 
-#Part 2: Environment Design and Setup
+# Part 2: Environment Design and Setup
 Architecture
 Public IP: 86.108.18.89
 Gateway: 192.168.1.1
@@ -29,7 +29,7 @@ Rana	00:0c:29:6a:a2
 Raghad	00:0c:29:7a:7a
 192.168.1.116
 
-#Part 3: Services Configuration
+# Part 3: Services Configuration
 VM1 - Ubuntu Server Services
 1. FTP Server (vsftpd)
 Purpose: Secure file transfers between a client and a server.
